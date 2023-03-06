@@ -1,0 +1,15 @@
+.form-group{
+    height: 100vh;
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    form{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        padding: 50px;
+        border-radius: 10px;
+        background-color: #fff;
+    }
+}

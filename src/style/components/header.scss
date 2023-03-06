@@ -1,0 +1,29 @@
+header{
+    width: 100%;
+    background-color: darkslategrey;
+    nav{
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ul{
+            display: flex;
+            justify-content: center;
+            li{
+                margin-left: 20px;
+                a{
+                    color: #fff;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+li a.active{
+    padding: 8px;
+    background-color:  deepskyblue;
+    border-radius: 10px;
+
+    
+}
